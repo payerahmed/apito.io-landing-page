@@ -19,10 +19,11 @@
   border-radius: 5px;
   border: 1px solid rgba(38, 78, 118, 0.08);
 }
-.client__card:hover {
+.client__card--active {
   background: #ffffff;
   box-shadow: 0px 6px 47px rgba(38, 78, 118, 0.1);
   border: none;
+  cursor: pointer;
 }
 .position,
 .clientName {
