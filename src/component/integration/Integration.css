@@ -1,0 +1,36 @@
+.integra__center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 70%;
+}
+.work {
+  width: 278px;
+  margin: 0 36px;
+  text-align: center;
+  margin-top: 108px;
+}
+.work img {
+}
+.work .name {
+  margin-top: 31px;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 24px;
+  letter-spacing: -0.18px;
+  color: #0f2137;
+}
+.work .details {
+  font-size: 15px;
+  line-height: 30px;
+  text-align: center;
+  color: rgba(15, 33, 55, 0.8);
+  margin-top: 17px;
+}
+.bar{
+    background-color: #E5ECF4;
+    height: 3px;
+    width: 100%;
+    margin-top: 85px;
+}

@@ -1,0 +1,63 @@
+.client__cards {
+  margin-left: 15%;
+  width: 84%;
+}
+.client__cards {
+  display: flex;
+  margin-top: 72px;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.client__card {
+  min-height: 402px;
+  min-width: 422px;
+  padding: 33px 15px 37px 40px;
+  margin-right: 38px;
+  border-radius: 5px;
+  border: 1px solid rgba(38, 78, 118, 0.08);
+}
+.client__card:hover {
+  background: #ffffff;
+  box-shadow: 0px 6px 47px rgba(38, 78, 118, 0.1);
+  border: none;
+}
+.position,
+.clientName {
+  color: #343d48;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 33px;
+  margin-top: 6px;
+}
+.client__card .detailes {
+  font-size: 18px;
+  line-height: 38px;
+  color: #343d48;
+}
+.client__profile {
+  display: flex;
+  align-items: center;
+  margin-top: 36px;
+}
+.client__img {
+  margin-right: 19px;
+}
+
+.clientName {
+}
+.clientEmail {
+  color: #ea3a60;
+  font-size: 15px;
+}
+.arrIcons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.arrow__left {
+  margin-right: 14px;
+}

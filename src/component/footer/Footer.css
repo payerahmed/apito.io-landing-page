@@ -1,0 +1,28 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  margin: 53px 0 323px 0;
+}
+.fotter__items {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.footer__item {
+  font-size: 18px;
+  line-height: 33px;
+  color: #02073e;
+  font-weight: 400;
+  padding: 0 20px;
+  cursor: pointer;
+}
+.copuright {
+  font-size: 14px;
+  line-height: 33px;
+  text-align: center;
+  color: #0f2137;
+  margin-top: 20px;
+}
